@@ -8,9 +8,14 @@ function Login() {
   const router = useRouter();
   return (
     <div>
-      <h1>Login Page</h1>
-      <Link href={"./"}>Go to home page</Link>
+      <h1 className="heading">Login Page</h1>
+      {/* <Link href={"./"}>Go to home page</Link> */}
       <button onClick={() => router.push("./")}>about page</button>
+      <br />
+      <br />
+      <button onClick={() => router.push("/login/login Student")}>
+        go to loginstudent
+      </button>
     </div>
   );
 }

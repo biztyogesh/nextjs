@@ -7,6 +7,9 @@ function About() {
     <div>
       <h1>This is a About Page</h1>
       <Link href={"./"}>Go to home page</Link>
+      <br />
+      <Link href={"./about/aboutcollege"}>Go to Aboutcollege</Link>
+      <Link href={"./about/aboutstudent"}>Go to Aboutcollege</Link>
     </div>
   );
 }
