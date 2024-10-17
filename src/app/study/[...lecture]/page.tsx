@@ -7,6 +7,7 @@ function Lecture({ params }) {
     <div>
       <h2> {params.lecture[0]} </h2>
       <h2> {params.lecture[1]} </h2>
+      <h2> {params.color[1]} </h2>
     </div>
   );
 }
